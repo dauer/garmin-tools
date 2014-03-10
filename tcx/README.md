@@ -34,7 +34,7 @@ My first training session consists of 6 laps, I want these laps merged into one 
 
 ### Align ###
 
-The problem with the second and third session is that they do not start at kilometer 0 but at 5084.25km and 10232.9912km so they need to be aligned.
+The problem with the second and third session is that they do not start at kilometer 0 but at 5084.25m and 10232.9912m so they need to be aligned.
 I substract the starting points from the relevant .tcx files:
 
 	saxon-xslt -s:Running-2013-8-5-lap-7.tcx -xsl:align.xsl align="5084.25000" > Running-2013-8-5.tcx
