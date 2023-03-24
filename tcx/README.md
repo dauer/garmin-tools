@@ -40,7 +40,7 @@ I substract the starting points from the relevant .tcx files:
 	saxon-xslt -s:Running-2013-8-5-lap-7.tcx -xsl:align.xsl align="5084.25000" > Running-2013-8-5.tcx
 	saxon-xslt -s:Running-2013-8-8-lap-9.tcx -xsl:align.xsl align="10232.9912" > Running-2013-8-8.tcx
 
-I now have 3 valid .tcx files I can upload to my http://www.endomondo.com profile!
+I now have 3 valid .tcx files I can upload to my endomondo.com (Endomondo has been shutdown...) profile!
 
 Lap 8 (file: Running-2013-8-8-lap-8.tcx) was a result of me double clicking the lap button on my watch and therefor it only lastet 2.39 seconds and had a distance of 0m so I just discharged that file.
 
