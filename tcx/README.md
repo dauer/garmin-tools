@@ -10,7 +10,7 @@ So I needed to split it up...
 The first thing to do is to split the .tcx file (in this example: 20130804T132325.tcx) into individual .tcx files each containing a lap.
 If all trainings sessions are registered as the same lap, this script will not help you, I had my sessions registered with laps.
 
-The split.xsl XSLT script does that (I use the Saxon XSLT processor):
+The split.xsl XSLT script does that (I use the [Saxon](https://www.saxonica.com/) XSLT processor):
 
 	saxon-xslt -s:20130804T132325.tcx -xsl:split.xsl
 
@@ -45,4 +45,4 @@ I now have 3 valid .tcx files I can upload to my endomondo.com (Endomondo has be
 Lap 8 (file: Running-2013-8-8-lap-8.tcx) was a result of me double clicking the lap button on my watch and therefor it only lastet 2.39 seconds and had a distance of 0m so I just discharged that file.
 
 ## Requirements ##
- * XSLT 2.0 processor (I use Saxon)
+ * XSLT 2.0 processor (I use [Saxon](https://www.saxonica.com/))
